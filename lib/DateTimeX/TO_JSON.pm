@@ -1,7 +1,7 @@
 # ABSTRACT: Adds a TO_JSON method to DateTime
 
 package DateTimeX::TO_JSON;
-$DateTimeX::TO_JSON::VERSION = '0.0.1';
+$DateTimeX::TO_JSON::VERSION = '0.0.2';
 use strict;
 use warnings;
 use Class::Load;
@@ -51,7 +51,7 @@ DateTimeX::TO_JSON - Adds a TO_JSON method to DateTime
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 SYNOPSIS
 
@@ -81,18 +81,6 @@ function in your code instead of using this module:
         # do something with $dt, such as:
         return $dt->ymd;
     }
-
-=head1 NAME
-
-DateTimeX::TO_JSON
-
-=head1 VERSION
-
-version 0.0.1
-
-=head1 AUTHOR
-
-Steven Humphrey E<lt>shumphrey@cpan.orgE<gt>
 
 =head1 AUTHOR
 
